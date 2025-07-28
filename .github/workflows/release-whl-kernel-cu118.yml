@@ -13,7 +13,7 @@ on:
 
 jobs:
   build-wheels:
-    if: github.repository == 'sgl-project/sglang'
+    if: github.repository == 'rinne1998/sglang'
     runs-on: sgl-kernel-release-node
     strategy:
       matrix:
