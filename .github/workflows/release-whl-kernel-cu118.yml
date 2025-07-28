@@ -14,7 +14,7 @@ on:
 jobs:
   build-wheels:
     if: github.repository == 'rinne1998/sglang'
-    runs-on: sgl-kernel-release-node
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: ['3.12']
